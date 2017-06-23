@@ -1,0 +1,103 @@
+<html>
+    <head>
+<style media="screen" type="text/css">
+body {
+    margin: 40px;
+    background-color: #1f1f1f;
+    color: #dcdccc;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 200%;
+}
+
+.header {
+    font-size: 150%;
+}
+
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 228px 228px 228px 228px;
+    grid-gap: 10px;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #3f3f3f;
+}
+</style>
+    </head>
+    <body>
+        <div class="title">Zenburn</div>
+        <div class="grid">
+            <div class="box" style="color: #dca3a3">Boolean</div>
+            <div class="box" style="color: #dca3a3; font-weight: bold">Character</div>
+            <div class="box" style="color: #7f9f7f; font-style: italic">Comment</div>
+            <div class="box" style="color: #f0dfaf; font-weight: bold">Conditional</div>
+            <div class="box" style="color: #dca3a3; font-weight: bold">Constant</div>
+            <div class="box" style="color: #000d18; background-color: #8faf9f; font-weight: bold">Cursor</div>
+            <div class="box" style="color: #bca3a3; font-weight: bold">Debug</div>
+            <div class="box" style="color: #ffcfaf; font-weight: bold">Define</div>
+            <div class="box" style="color: #8f8f8f">Delimiter</div>
+            <div class="box" style="color: #709080; background-color: #313c36; font-weight: bold">DiffAdd</div>
+            <div class="box" style="background-color: #333333">DiffChange</div>
+            <div class="box" style="color: #333333; background-color: #464646">DiffDelete</div>
+            <div class="box" style="color: #ecbcbc; background-color: #41363c; font-weight: bold">DiffText</div>
+            <div class="box" style="color: #9fafaf; font-weight: bold">Directory</div>
+            <div class="box" style="color: #80d4aa; background-color: #2f2f2f; font-weight: bold">ErrorMsg</div>
+            <div class="box" style="color: #c3bf9f; font-weight: bold">Exception</div>
+            <div class="box" style="color: #c0bed1">Float</div>
+            <div class="box" style="color: #93b3a3; background-color: #3f4040">FoldColumn</div>
+            <div class="box" style="color: #93b3a3; background-color: #3f4040">Folded</div>
+            <div class="box" style="color: #efef8f">Function</div>
+            <div class="box" style="color: #efdcbc">Identifier</div>
+            <div class="box" style="color: #f8f893; background-color: #385f38">IncSearch</div>
+            <div class="box" style="color: #f0dfaf; font-weight: bold">Keyword</div>
+            <div class="box" style="color: #ffcfaf; font-weight: bold">Macro</div>
+            <div class="box" style="color: #ffcfaf">ModeMsg</div>
+            <div class="box" style="color: #ffffff; font-weight: bold">MoreMsg</div>
+            <div class="box" style="color: #8cd0d3">Number</div>
+            <div class="box" style="color: #f0efd0">Operator</div>
+            <div class="box" style="background-color: #2e3330 color: #000000">PmenuSbar</div>
+            <div class="box" style="background-color: #a0afa0 color: #040404">PmenuThumb</div>
+            <div class="box" style="color: #dfaf8f; font-weight: bold">PreCondit</div>
+            <div class="box" style="color: #ffcfaf; font-weight: bold">PreProc</div>
+            <div class="box" style="color: #ffffff; font-weight: bold">Question</div>
+            <div class="box" style="color: #ffd7a7; font-weight: bold">Repeat</div>
+            <div class="box" style="color: #ffffe0; background-color: #284f28">Search</div>
+            <div class="box" style="color: #9fafaf; font-weight: bold">SignColumn</div>
+            <div class="box" style="color: #dca3a3; font-weight: bold">SpecialChar</div>
+            <div class="box" style="color: #82a282; font-weight: bold">SpecialComment</div>
+            <div class="box" style="color: #cfbfaf">Special</div>
+            <div class="box" style="color: #9ece9e">SpecialKey</div>
+            <div class="box" style="color: #e3ceab">Statement</div>
+            <div class="box" style="color: #313633; background-color: #ccdc90">StatusLine</div>
+            <div class="box" style="color: #2e3330; background-color: #88b090">StatusLineNC</div>
+            <div class="box" style="color: #c3bf9f; font-weight: bold">StorageClass</div>
+            <div class="box" style="color: #cc9393">String</div>
+            <div class="box" style="color: #efefaf; font-weight: bold">Structure</div>
+            <div class="box" style="color: #e89393; font-weight: bold">Tag</div>
+            <div class="box" style="color: #efefef; font-weight: bold">Title</div>
+            <div class="box" style="color: #dfdfdf; font-weight: bold">Todo</div>
+            <div class="box" style="color: #dfe4cf; font-weight: bold">Typedef</div>
+            <div class="box" style="color: #dfdfbf; font-weight: bold">Type</div>
+            <div class="box" style="color: #dcdccc; text-decoration: underline">Underlined</div>
+            <div class="box" style="color: #2e3330; background-color: #688060">VertSplit</div>
+            <div class="box" style="color: #333333; background-color: #f18c96; font-weight: bold; text-decoration: underline">VisualNOS</div>
+            <div class="box" style="color: #ffffff; background-color: #333333; font-weight: bold">WarningMsg</div>
+            <div class="box" style="color: #cbecd0; background-color: #2c302d; text-decoration: underline">WildMenu</div>
+        </div>
+        <div class="header">Spell Checking</div>
+        <div class="grid">
+            <div class="box" style="color: #dc8c6c; text-decoration: underline solid #bc6c4c">SpellBad</div>
+            <div class="box" style="color: #8c8cbc; text-decoration: underline solid #6c6c9c">SpellCap</div>
+            <div class="box" style="color: #bc8cbc; text-decoration: underline solid #bc6c9c">SpellRare</div>
+            <div class="box" style="color: #9ccc9c; text-decoration: underline solid #7cac7c">SpellLocal</div>
+        </div>
+    </body>
+</html>
